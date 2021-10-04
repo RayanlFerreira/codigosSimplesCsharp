@@ -1,0 +1,16 @@
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#.deps.json
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#.runtimeconfig.json
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#.runtimeconfig.dev.json
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#.dll
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/ref/Código C#.dll
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/bin/Debug/net5.0/Código C#.pdb
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.csproj.AssemblyReference.cache
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.AssemblyInfoInputs.cache
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.AssemblyInfo.cs
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.csproj.CoreCompileInputs.cache
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.dll
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/ref/Código C#.dll
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.pdb
+/home/rayanlyung/Documentos/GitHub/codigosSimplesCsharp/Código C#/obj/Debug/net5.0/Código C#.genruntimeconfig.cache
