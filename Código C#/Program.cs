@@ -76,7 +76,7 @@ namespace Código_C_
 
             idade = anoAtual - anonascimento;
             idade2022 = ano2022-anonascimento;
-            Console.WriteLine("Você atualmente tem "+ idade +"anos e em 2022 você terá "+ idade2022);
+            Console.WriteLine("Você atualmente tem "+ idade +" anos e em 2022 você terá "+ idade2022);
             /*----------------------------------------------------------------------*/
 
             /*6- O custo ao consumidor de um carro novo é a soma do preço de fábrica  com  o  percentual  de  lucro  do  distribuidor  e  dos  impostos  aplicados  ao preço  de  fábrica.  Faça  um  programa  que  receba  o  preço  de  fábrica  de  um veículo, o percentual de lucro do distribuidor e o percentual de imposto. Calcule e  mostre:  a.  O  valor  correspondente  ao  lucro  do  distribuidor;  b.  O  valor correspondente aos impostos; c. O preço final do veículo.*/
@@ -127,7 +127,7 @@ namespace Código_C_
             horaTrabalhada = salarioMinimo / 2;
             salarioBruto = horaTrabalhada*horas;
             impostoGov = salario*0.03;
-            salarioBruto = salarioBruto - imposto;
+            salarioBruto = salarioBruto - impostoGov;
 
             Console.WriteLine("O seu salario é de :R$" + salario);
             /*----------------------------------------------------------------------*/
