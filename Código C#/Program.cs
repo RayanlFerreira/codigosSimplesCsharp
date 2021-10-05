@@ -99,6 +99,7 @@ namespace Código_C_
             Console.WriteLine("O valor de lucro do distribuidor é R$" + lucro);
             Console.WriteLine("O valor do imposto é R$" + imposto);
             Console.WriteLine("O preço do veículo é R$" + preco);
+            /*----------------------------------------------------------------------*/
 
             /*7- Cada degrau de uma escada tem X de altura. Faça um programa que  receba  essa  altura  e  a  altura  que  o  usuário  deseja  alcançar  subindo  a escada.  Calcule  e  mostre  quantos degraus o  usuário deverá  subir  para  atingir seu objetivo, sem se preocupar com a altura do usuário.*/
             int alturaDegrau, alturaDesejada, numDegrau;
@@ -130,6 +131,27 @@ namespace Código_C_
 
             Console.WriteLine("O seu salario é de :R$" + salario);
             /*----------------------------------------------------------------------*/
+
+            /*9- Inicialize  uma  variável  do  tipo  inteiro  com  um  valor  aleatório. Escreva um comando "switch" com quatro cases. Um case deve corresponder ao valor que você atribuiu à variável de teste. Em cada "case" você irá criar um comando  para  imprimir  na  tela  um  presente  diferente.  Para  o  case  que corresponde ao valor da variável de teste, você irá mandar imprimir PS4 como um presente. */
+            int numeroDasorte = 4;
+            Random numeroran = new Random();
+            int numerosorteado;
+            numerosorteado = numeroran.Next(4);
+
+            switch (numerosorteado){
+                case 1:
+                Console.WriteLine("Parabéns, você ganhou um jogo da vida");
+                break;
+                case 2:
+                Console.WriteLine("Parabéns, você ganhou 300reais");
+                break;
+                case 3:
+                Console.WriteLine("Parabéns, ganhou um xbox");
+                break;
+                case 4:
+                Console.WriteLine("Parabéns, você ganhou um PS4");
+                break;
+            }
         }
     }
 }
