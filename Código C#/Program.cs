@@ -90,6 +90,7 @@ namespace Código_C_
             /*----------------------------------------------------------------------*/
 
             /*6- O custo ao consumidor de um carro novo é a soma do preço de fábrica  com  o  percentual  de  lucro  do  distribuidor  e  dos  impostos  aplicados  ao preço  de  fábrica.  Faça  um  programa  que  receba  o  preço  de  fábrica  de  um veículo, o percentual de lucro do distribuidor e o percentual de imposto. Calcule e  mostre:  a.  O  valor  correspondente  ao  lucro  do  distribuidor;  b.  O  valor correspondente aos impostos; c. O preço final do veículo.*/
+            /*
             float valorF, imposto, lucro, preco;
 
             Console.WriteLine("Digite o valor do veículo vindo da fábrica: ");
@@ -109,6 +110,40 @@ namespace Código_C_
             Console.WriteLine("O valor de lucro do distribuidor é R$" + lucro);
             Console.WriteLine("O valor do imposto é R$" + imposto);
             Console.WriteLine("O preço do veículo é R$" + preco);
+            */
+
+            /*7- Cada degrau de uma escada tem X de altura. Faça um programa que  receba  essa  altura  e  a  altura  que  o  usuário  deseja  alcançar  subindo  a escada.  Calcule  e  mostre  quantos degraus o  usuário deverá  subir  para  atingir seu objetivo, sem se preocupar com a altura do usuário.*/
+            /*
+            int alturaDegrau, alturaDesejada, numDegrau;
+
+            Console.WriteLine("Qual a altura de cada degrau em CM?");
+            alturaDegrau = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual a altura que você quer atingir em CM ?");
+            alturaDesejada = int.Parse(Console.ReadLine());
+
+            numDegrau = alturaDesejada/alturaDegrau;
+            Console.WriteLine("O número de degraus necessários para atingir a altura desejada é de "+ numDegrau);
+            */
+
+            /*8-Faça um programa que receba o número de horas trabalhadas e o  valor  do  salário  mínimo.  Calcule  e  mostre  o  salário  a  receber  seguindo  as regras abaixo: a. a hora trabalhada vale a metade do salário mínimo; b. o salário bruto equivale ao número de horas trabalhadas multiplicado pelo valor da hora trabalhada; c. oimposto equivale a 3% do salário bruto; d. o salário a receber equivale ao salário bruto menos o imposto. */
+            /*
+            float horas, salarioMinimo, horaTrabalhada;
+            double imposto, salario;
+
+            Console.WriteLine("Digite as horas trabalhadas");
+            horas = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor do salario minimo");
+            salarioMinimo = float.Parse(Console.ReadLine());
+
+            horaTrabalhada = salarioMinimo / 2;
+            salario = horaTrabalhada*horas;
+            imposto = salario*0.03;
+            salario = salario - (salario*0.03);
+
+            Console.WriteLine("O seu salario é de :R$" + salario);
+            */
         }
     }
 }
