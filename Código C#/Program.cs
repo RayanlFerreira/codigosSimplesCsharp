@@ -21,6 +21,7 @@ namespace Código_C_
             /*----------------------------------------------------------------------*/
 
             /*2-Cálculo de um saláriolíquido de um professor. Serão fornecidos valor dahora aula, númerode aulas dadas e o % de desconto do INSS.*/
+            /*
             float dinheiroHora,INSS,salario;
             int aulas;
 
@@ -37,6 +38,26 @@ namespace Código_C_
             salario = salario - (salario * INSS/100);
 
             Console.WriteLine("Seu salário é de " + salario +" reais.");
+            */
+            /*----------------------------------------------------------------------*/
+
+            /*3- Ler  1  número.  Se  positivo,  imprimir  raiz  quadrada,  senão  o quadrado.*/
+            /*
+            float num;
+
+            Console.WriteLine("Digite um número : ");
+            num = float.Parse(Console.ReadLine());
+
+            if (num > 0)
+            {
+                Console.WriteLine("A raiz quardrada é: " + Math.Sqrt(num));
+            }
+            else
+            {
+                Console.WriteLine("O quadrado desse número: " + num * num);
+            }
+            */
+            /*----------------------------------------------------------------------*/
         }
     }
 }
